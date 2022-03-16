@@ -25,6 +25,10 @@ export const Wrapper = styled.div`
   
 
   @media (max-width: 767px) {
+      .h1 > h1{
+        width: 90%;
+        font-size: 2.5em;
+    }
     .web3 {
        height: auto;
     }
