@@ -6,6 +6,7 @@ import { toggleDrawer } from '../redux/toggleDrawer'
 import Hero from '../components/Hero'
 import Intro from '../components/Intro'
 import AboutCirconomy from '../components/AboutCirconomy'
+import {Wrapper} from '../components/PagesStyles/Home.styles'
 
 const Home = () => {
   let location = useLocation()
@@ -19,15 +20,17 @@ const Home = () => {
   }, [location])
 
   return (
-    <>
+    <Wrapper>
       <Hero />
       <Intro />
       <AboutCirconomy />
       <div className="web3 txt-center">
-        <h1>Web3 technologies + Cooperative business models + Circular culture & systems =</h1>
-        <p>The future of how we produce & consume or take & make & remake in the 21st Century!</p>
+        <div className="h1">
+          <h1>Web3 technologies + Cooperative business models + Circular culture & systems =</h1>
+        </div>
+        <p>The future of how we produce & consume or take & <br/> make & remake in the 21st Century!</p>
       </div>
-    </>
+    </Wrapper>
   )
 }
 
