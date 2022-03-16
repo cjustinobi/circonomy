@@ -31,8 +31,8 @@ const Home = () => {
         </div>
         <p>The future of how we produce & consume or take & <br/> make & remake in the 21st Century!</p>
       </div>
-      <div className="climate-change">
-        <img src={climateChange} alt=""/>
+      <div className="climate-change txt-center">
+        <img width="220px" src={climateChange} alt=""/>
         <p>Climate change isn’t just a government or corporate problem, it’s a people problem!</p>
       </div>
     </Wrapper>

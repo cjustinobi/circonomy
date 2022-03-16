@@ -23,14 +23,32 @@ export const Wrapper = styled.div`
     }
   }
   
+  .climate-change {
+     width: 50%;
+     margin: 30px auto;
+    
+      p {
+      font-weight: 700;
+      font-size: 3.5em;
+    }
+  }
+  
 
   @media (max-width: 767px) {
-      .h1 > h1{
-        width: 90%;
-        font-size: 2.5em;
+    .h1 > h1{
+      width: 90%;
+      font-size: 2.5em;
     }
     .web3 {
-       height: auto;
+      height: auto;
     }
+    .climate-change {
+       width: 90%;
+       margin: 30px auto;
+      
+      p {
+      font-size: 2.5em;
+    }
+  }
   }
 `
