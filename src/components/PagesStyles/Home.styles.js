@@ -26,7 +26,7 @@ export const Wrapper = styled.div`
 
   @media (max-width: 767px) {
     .web3 {
-       min-height: 100px;
+       height: auto;
     }
   }
 `
