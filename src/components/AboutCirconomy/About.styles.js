@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 
-import web3 from '../../assets/img/web3.svg'
 
 export const Wrapper = styled.div`
   width: 60%;
@@ -21,11 +20,7 @@ export const Wrapper = styled.div`
     padding: 0 20px;
    
   }
-  
-  .web3 {
-    background: url(${web3}) center no-repeat;
-    height: 300px;
-  }
+ 
   
   @media (max-width: 767px) {
     width: 90%;
