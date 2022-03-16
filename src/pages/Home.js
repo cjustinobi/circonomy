@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { useEffect } from 'react'
 import { toggleDrawer } from '../redux/toggleDrawer'
 
+import climateChange from '../assets/img/climate-change.svg'
 import Hero from '../components/Hero'
 import Intro from '../components/Intro'
 import AboutCirconomy from '../components/AboutCirconomy'
@@ -29,6 +30,10 @@ const Home = () => {
           <h1>Web3 technologies + Cooperative business models + Circular culture & systems =</h1>
         </div>
         <p>The future of how we produce & consume or take & <br/> make & remake in the 21st Century!</p>
+      </div>
+      <div className="climate-change">
+        <img src={climateChange} alt=""/>
+        <p>Climate change isn’t just a government or corporate problem, it’s a people problem!</p>
       </div>
     </Wrapper>
   )
