@@ -23,6 +23,10 @@ const Home = () => {
       <Hero />
       <Intro />
       <AboutCirconomy />
+      <div className="web3 txt-center">
+        <h1>Web3 technologies + Cooperative business models + Circular culture & systems =</h1>
+        <p>The future of how we produce & consume or take & make & remake in the 21st Century!</p>
+      </div>
     </>
   )
 }
