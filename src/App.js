@@ -15,6 +15,7 @@ import MagicLink from './pages/MagicLink'
 import OnBoarding from './pages/OnBoarding'
 import EngageCircles from './pages/EngageCircles'
 import AppHeader from './components/layout/Header'
+import AppFooter from './components/layout/Footer'
 import AppDrawer from './components/layout/Drawer'
 import ActivateCircle from './pages/ActivateCircle'
 import ExploreCircles from './pages/ExploreCircles'
@@ -88,6 +89,7 @@ function App() {
             {/*<PrivateRoute path="/dashboard" element={Dashboard}/>*/}
             <Route path='/*' element={<NotFound/>}/>
           </Routes>
+        <AppFooter />
       </Router>
     </UserContext.Provider>
   )
